@@ -1,7 +1,5 @@
 # Bash scripts utils
 
----
-
 Some useful bash scripts to use in everydays work. These scripts follows the [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html#s6.3-tests) with some slight differences in some cases. In all cases, you can set `-h` or `--help` option to see a brief description and usage
 
 ### Short description
