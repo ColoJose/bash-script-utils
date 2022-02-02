@@ -5,4 +5,4 @@ Some useful bash scripts to use in everydays work. These scripts follows the [Go
 ### Short description
 
 1. [ifacelogs](https://github.com/ColoJose/bash-script-utils/blob/main/src/ifacelogs.sh): takes a file and returns all lines which matches configured netowrk interfaces
-2. [ping_discovery](https://github.com/ColoJose/bash-script-utils/blob/main/src/ping_discovery.sh): makes a host discovery sending ARP packet using the network interface IP address and network mask to generate the list of target host addresses network. After this, send and ICMP ECHO Request to see if each discovered supports this service or inform the problem ocurred.
+2. [arp_host_discovery](https://github.com/ColoJose/bash-script-utils/blob/main/src/arp_host_discovery.sh): makes a host discovery sending ARP packets. After this, send and ICMP ECHO Request to each discovered host in order to show if it supports this service or inform the problem ocurred.
