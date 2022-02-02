@@ -6,4 +6,3 @@ Some useful bash scripts to use in everydays work. These scripts follows the [Go
 
 1. [ifacelogs](https://github.com/ColoJose/bash-script-utils/blob/main/src/ifacelogs.sh): takes a file and returns all lines which matches configured netowrk interfaces
 2. [ping_discovery](https://github.com/ColoJose/bash-script-utils/blob/main/src/ping_discovery.sh): makes a host discovery sending ARP packet using the network interface IP address and network mask to generate the list of target host addresses network. After this, send and ICMP ECHO Request to see if each discovered supports this service or inform the problem ocurred.
-3. [allowip](https://github.com/ColoJose/bash-script-utils/blob/main/src/allowip.sh): Resolve the domain name given and adds an iptables/ip6tables rule in order to allow traffic for this.
